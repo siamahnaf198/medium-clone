@@ -7,8 +7,8 @@ export default {
                 color: "text.primary",
                 textDecoration: "none",
                 button: {
-                    fontSize: "14px",
-                    padding: "5px 12px",
+                    fontSize: "15px",
+                    padding: "5px 15px",
                     borderRadius: "25px"
                 },
                 "&.last-follow-btn": {

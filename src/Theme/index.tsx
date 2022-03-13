@@ -10,7 +10,7 @@ declare module '@mui/material/styles' {
 // Create a theme instance.
 const theme = createTheme({
     typography: {
-        fontFamily: "Merriweather"
+        fontFamily: "PT Serif"
     },
     palette: {
         text: {
@@ -28,7 +28,7 @@ const theme = createTheme({
         MuiButtonBase: {
             styleOverrides: {
                 root: {
-                    fontFamily: "Merriweather"
+                    fontFamily: "PT Serif"
                 },
             },
         },

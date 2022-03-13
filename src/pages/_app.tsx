@@ -8,10 +8,8 @@ import theme from 'Theme';
 import createEmotionCache from 'Emotion';
 
 //Fonts
-import "@fontsource/merriweather/300.css";
-import "@fontsource/merriweather/400.css";
-import "@fontsource/merriweather/700.css";
-import "@fontsource/merriweather/900.css";
+import "@fontsource/pt-serif/400.css";
+import "@fontsource/pt-serif/700.css";
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();

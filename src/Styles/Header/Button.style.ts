@@ -6,6 +6,7 @@ export default {
             ml: "3px",
             textDecoration: "none",
             button: {
+                fontSize: "15px",
                 p: "7px 12px",
                 borderRadius: "25px"
             },

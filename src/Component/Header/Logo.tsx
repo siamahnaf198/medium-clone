@@ -13,7 +13,7 @@ const Logo = () => {
                         component="img"
                         src={Logos}
                         alt="Logo"
-                        sx={{ width: "100%", mt: "2px" }}
+                        sx={{ width: "100%", mt: "5px" }}
                     />
                 </a>
             </Link>
