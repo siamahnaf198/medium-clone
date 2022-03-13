@@ -4,6 +4,7 @@ export default {
         a: {
             color: "primary.main",
             ml: "3px",
+            textDecoration: "none",
             button: {
                 p: "7px 12px",
                 borderRadius: "25px"

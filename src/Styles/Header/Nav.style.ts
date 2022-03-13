@@ -5,6 +5,7 @@ export default {
             mr: "5px",
             a: {
                 color: "text.primary",
+                textDecoration: "none",
                 button: {
                     fontSize: "14px",
                     padding: "5px 12px",
