@@ -1,17 +1,36 @@
 import { createTheme } from '@mui/material/styles';
-import { red } from '@mui/material/colors';
+
+declare module '@mui/material/styles' {
+    interface PaletteColorOptions {
+        main?: string;
+        main_primary?: string;
+    }
+}
 
 // Create a theme instance.
 const theme = createTheme({
+    typography: {
+        fontFamily: "Merriweather"
+    },
     palette: {
+        text: {
+            primary: "#000000", //Default Text Color
+        },
+        background: {
+            default: "#FFFFFF" //Default Background Color
+        },
         primary: {
-            main: '#556cd6',
-        },
-        secondary: {
-            main: '#19857b',
-        },
-        error: {
-            main: red.A400,
+            main: "#38A169", //Others Main Color
+            main_primary: "#ECC94B", //Yello color
+        }
+    },
+    components: {
+        MuiButtonBase: {
+            styleOverrides: {
+                root: {
+                    fontFamily: "Merriweather"
+                },
+            },
         },
     },
 });

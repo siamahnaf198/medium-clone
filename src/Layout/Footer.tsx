@@ -1,10 +1,10 @@
-import { Box } from "@mui/material";
+import { Container } from "@mui/material";
 
 const Footer = () => {
     return (
-        <Box>
+        <Container maxWidth={false}>
             Footer
-        </Box>
+        </Container>
     );
 };
 export default Footer;

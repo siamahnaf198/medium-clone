@@ -1,9 +1,14 @@
+import { FC } from "react";
 import Head from "next/head";
 
-const Seo = () => {
+type Props = {
+    title?: String
+}
+
+const Seo: FC<Props> = ({ title = "Medium Blog | Siam Ahnaf" }) => {
     return (
         <Head>
-            <title>Medium Blog</title>
+            <title>{title}</title>
         </Head>
     );
 };

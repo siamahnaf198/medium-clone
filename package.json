@@ -12,6 +12,7 @@
     "@emotion/react": "^11.8.1",
     "@emotion/server": "^11.4.0",
     "@emotion/styled": "^11.8.1",
+    "@fontsource/merriweather": "^4.5.6",
     "@mui/material": "^5.5.0",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
