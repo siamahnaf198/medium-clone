@@ -9,7 +9,7 @@ import { urlFor } from "../../../sanity";
 import { useAppSelector } from "../../Redux/reduxHook";
 
 //Styles
-import styles from "Styles/Home/News.styles";
+import styles from "../../Styles/Home/News.styles";
 
 const Newses = () => {
     const { news, message } = useAppSelector(state => state.news);
