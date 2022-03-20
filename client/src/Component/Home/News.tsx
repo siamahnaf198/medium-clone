@@ -4,6 +4,8 @@ import Link from "next/link";
 //Types And Sanity
 import { News } from "../../../typings";
 import { urlFor } from "../../../sanity";
+import { useSelector } from "react-redux";
+import { RootState } from "../../Redux/Reducers/Reducers";
 
 //Redux
 import { useAppSelector } from "../../Redux/reduxHook";
@@ -12,7 +14,7 @@ import { useAppSelector } from "../../Redux/reduxHook";
 import styles from "../../Styles/Home/News.styles";
 
 const Newses = () => {
-    const { news, message } = useAppSelector(state => state.news);
+    const { news } = useSelector((state: RootState) => state.news);
     return (
         <Box sx={{ py: "1.5em" }}>
             <Grid container rowSpacing={3} columnSpacing={2}>
