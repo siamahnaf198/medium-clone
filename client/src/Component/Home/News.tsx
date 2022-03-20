@@ -7,9 +7,6 @@ import { urlFor } from "../../../sanity";
 import { useSelector } from "react-redux";
 import { RootState } from "../../Redux/Reducers/Reducers";
 
-//Redux
-import { useAppSelector } from "../../Redux/reduxHook";
-
 //Styles
 import styles from "../../Styles/Home/News.styles";
 
