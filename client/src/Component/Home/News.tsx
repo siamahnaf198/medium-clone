@@ -1,17 +1,17 @@
 import { Box, Grid, Card, CardContent, CardActionArea, CardMedia, Stack, Typography, Avatar } from "@mui/material";
 import Link from "next/link";
-import { useSelector } from "react-redux";
 
 //Types And Sanity
-import { News } from "../../../typings";
-import { urlFor } from "../../../sanity";
-import { RootState } from "../../Redux/Reducers/Reducers";
+import { useAppSelector } from "Redux/reduxHook";
 
 //Styles
-import styles from "../../Styles/Home/News.styles";
+import styles from "Styles/Home/News.styles";
+
+import { News } from "../../../typings";
+import { urlFor } from "../../../sanity";
 
 const Newses = () => {
-    const { news } = useSelector((state: RootState) => state.news);
+    const { news } = useAppSelector((state: RootState) => state.news);
     return (
         <Box sx={{ py: "1.5em" }}>
             <Grid container rowSpacing={3} columnSpacing={2}>
