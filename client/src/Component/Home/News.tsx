@@ -1,10 +1,10 @@
 import { Box, Grid, Card, CardContent, CardActionArea, CardMedia, Stack, Typography, Avatar } from "@mui/material";
 import Link from "next/link";
+import { useSelector } from "react-redux";
 
 //Types And Sanity
 import { News } from "../../../typings";
 import { urlFor } from "../../../sanity";
-import { useSelector } from "react-redux";
 import { RootState } from "../../Redux/Reducers/Reducers";
 
 //Styles
