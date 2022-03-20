@@ -6,7 +6,7 @@ import { News } from "../../../typings";
 import { urlFor } from "../../../sanity";
 
 //Redux
-import { useAppSelector } from "Redux/hook";
+import { useAppSelector } from "Redux/reduxHook";
 
 //Styles
 import styles from "Styles/Home/News.styles";
