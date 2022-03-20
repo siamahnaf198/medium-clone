@@ -1,6 +1,6 @@
 import { AnyAction } from "redux";
 import { NewsTypes } from "Redux/Constant/newsTypes";
-import { News } from "Types/typings";
+import { News } from "../../../typings";
 
 interface State {
     message: string,

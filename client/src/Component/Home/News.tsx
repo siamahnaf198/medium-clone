@@ -2,7 +2,7 @@ import { Box, Grid, Card, CardContent, CardActionArea, CardMedia, Stack, Typogra
 import Link from "next/link";
 
 //Types And Sanity
-import { News } from "Types/typings";
+import { News } from "../../../typings";
 import { urlFor } from "../../../sanity";
 
 //Redux
